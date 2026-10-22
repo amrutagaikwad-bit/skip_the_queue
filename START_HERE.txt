@@ -1,0 +1,15 @@
+SKIPTHEQUEUE - WINDOWS QUICK START
+
+Requirements: Node.js 22.5+ (Node 24.14.0 is compatible). No Bash, Python, or Visual Studio C++ Build Tools required.
+
+1. Open PowerShell in this folder.
+2. Run: npm install
+3. Run: npm start
+4. Open: http://localhost:3000
+
+Demo password for all demo accounts: Queue@123
+Citizen: citizen@skipthequeue.demo
+Staff: staff@skipthequeue.demo
+Admin: admin@skipthequeue.demo
+
+If Windows reports EPERM while files are being cleaned, close any running Node/VS Code terminals using this project, then retry.

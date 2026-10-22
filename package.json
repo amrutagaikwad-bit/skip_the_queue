@@ -1,0 +1,22 @@
+{
+  "name": "skipthequeue-smart-queue-management",
+  "version": "1.0.0",
+  "description": "SkipTheQueue - AI-inspired queue management demo using Node.js built-in SQLite (no native addon build tools required)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test tests.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "qrcode": "^1.5.4"
+  }
+}
